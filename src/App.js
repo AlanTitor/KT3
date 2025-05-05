@@ -2,6 +2,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ProductsPage from './pages/ProductsPage';
 import ProductPage from './pages/ProductPage';
 import NotFoundPage from './components/NotFoundPage';
+import ReactDOM from "react-dom/client"
+
+import { createHashRouter, RouterProvider } from 'react-router-dom'
 
 export default function App() {
   return (
@@ -14,3 +17,14 @@ export default function App() {
     </BrowserRouter>
   );
 }
+
+const router = createHashRouter([
+  {
+    path: '/*',
+    element: <App />
+  }
+])
+
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<RouterProvider router={router}/>);
