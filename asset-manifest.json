@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/KT3/static/js/main.13d46ede.js",
+    "main.js": "/KT3/static/js/main.4bc73b15.js",
     "index.html": "/KT3/index.html",
-    "main.13d46ede.js.map": "/KT3/static/js/main.13d46ede.js.map"
+    "main.4bc73b15.js.map": "/KT3/static/js/main.4bc73b15.js.map"
   },
   "entrypoints": [
-    "static/js/main.13d46ede.js"
+    "static/js/main.4bc73b15.js"
   ]
 }
